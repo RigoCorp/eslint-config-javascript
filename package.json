@@ -1,0 +1,29 @@
+{
+	"name": "@rigocorp/eslint-javascript",
+	"version": "0.0.1",
+	"description": "Rigoberto Corporation's ESLint configuration for JavaScript projects",
+	"homepage": "https://github.com/RigoCorp/eslint-javascript#readme",
+	"bugs": {
+		"url": "https://github.com/RigoCorp/eslint-javascript/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+ssh://git@github.com/RigoCorp/eslint-javascript.git"
+	},
+	"license": "MIT",
+	"author": "Rigoberto Corporation",
+	"main": "index.js",
+	"files": [
+		"index.js"
+	],
+	"scripts": {
+		"prepare": "husky install",
+		"test": "npx eslint index.js"
+	},
+	"devDependencies": {
+		"husky": "^7.0.4"
+	},
+	"peerDependencies": {
+		"eslint": "^8.3.0"
+	}
+}
