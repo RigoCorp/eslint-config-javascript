@@ -1,5 +1,5 @@
 {
-	"name": "@rigocorp/eslint-javascript",
+	"name": "@rigocorp/eslint-config-javascript",
 	"version": "0.0.1",
 	"description": "Rigoberto Corporation's ESLint configuration for JavaScript projects",
 	"homepage": "https://github.com/RigoCorp/eslint-javascript#readme",
